@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V8.2.1.4029.1.523496" APIVersion="2.8.9029.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2015-06-03T15:19:08Z" uuid="354756af-56a2-47b3-8971-6e53468a09bc">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+   <?formServer defaultPDFRenderFormat acrobat8.1static?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="ServiceContract" layout="tb" locale="en_US">
+      <pageSet>
+         <pageArea name="Page1" id="Page1">
+            <contentArea x="0.25in" y="0.25in" w="576pt" h="756pt"/>
+            <medium stock="default" short="612pt" long="792pt"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform w="576pt" h="756pt">
+         <draw name="Title" w="149.225mm" h="12.7mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>Service Contract</text>
+            </value>
+            <font size="28pt" typeface="Myriad Pro" baselineShift="0pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            <?renderCache.bounds 420166 33166 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 16 Service Contract 0 1417 22417 0 0 0 "Myriad Pro" 0 0 28000 ISO-8859-1?></draw>
+         <draw name="CompanyName" y="9.525mm" w="92.724mm" h="5.2331mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>Compute Recoup | computerecoup@gmail.com | 314.651.2965</text>
+            </value>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <?renderCache.bounds 260006 12000 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 55 Compute Recoup | computerecoup@gmail.com | 314.651.2965 0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+         <field name="EffectiveDate" x="149.225mm" w="52.475mm" h="12.7mm">
+            <ui>
+               <dateTimeEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </dateTimeEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom" hAlign="center"/>
+            <value>
+               <date/>
+            </value>
+            <caption reserve="13.76mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+               <value>
+                  <exData contentType="text/html">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="letter-spacing:0in">Effective</p><p style="letter-spacing:0in">Date:</p></body>
+                  </exData>
+               </value>
+            </caption>
+         </field>
+         <draw name="Line1" y="15.875mm" w="203.2mm" h="0in">
+            <value>
+               <line slope="/"/>
+            </value>
+         </draw>
+         <field name="ClientName" y="15.875mm" w="203.2mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="33.34mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+               <value>
+                  <text>Client Name:</text>
+               </value>
+            </caption>
+         </field>
+         <field name="ClientAddress" y="25.4mm" w="203.2mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="33.34mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+               <value>
+                  <text>Address:</text>
+               </value>
+            </caption>
+         </field>
+         <field name="ClientCity" y="34.925mm" w="120.65mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="33.34mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+               <value>
+                  <text>City:</text>
+               </value>
+            </caption>
+         </field>
+         <field name="ClientState" y="34.925mm" x="120.65mm" w="41.275mm" h="9mm" relevant="-print">
+            <ui>
+               <choiceList textEntry="1">
+                  <border>
+                     <?templateDesigner StyleID aped1?>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                  </border>
+                  <margin/>
+               </choiceList>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="10.85mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+               <value>
+                  <text>State:</text>
+               </value>
+            </caption>
+            <items save="1">
+               <text>Alabama</text>
+               <text>Alaska</text>
+               <text>Arizona</text>
+               <text>Arkansas</text>
+               <text>Califonia</text>
+               <text>Colorado</text>
+               <text>Connecticut</text>
+               <text>Delaware</text>
+               <text>Florida</text>
+               <text>Georgia</text>
+               <text>Hawaii</text>
+               <text>Idaho</text>
+               <text>Illinois</text>
+               <text>Indiana</text>
+               <text>Iowa</text>
+               <text>Kansas</text>
+               <text>Kentucky</text>
+               <text>Louisiana</text>
+               <text>Maine</text>
+               <text>Maryland</text>
+               <text>Massachusetts</text>
+               <text>Michigan</text>
+               <text>Minnesota</text>
+               <text>Mississippi</text>
+               <text>Missouri</text>
+               <text>Montana</text>
+               <text>Nebraska</text>
+               <text>Nevada</text>
+               <text>New Hampshire</text>
+               <text>New Jersey</text>
+               <text>New Mexico</text>
+               <text>New York</text>
+               <text>North Carolina</text>
+               <text>North Dakota</text>
+               <text>Ohio</text>
+               <text>Oklahoma</text>
+               <text>Oregon</text>
+               <text>Pennsylvania</text>
+               <text>Rhode Island</text>
+               <text>South Carolina</text>
+               <text>South Dakota</text>
+               <text>Tennessee</text>
+               <text>Texas</text>
+               <text>Utah</text>
+               <text>Vermont</text>
+               <text>Virginia</text>
+               <text>Washington</text>
+               <text>West Virginia</text>
+               <text>Wisconsin</text>
+               <text>Wyoming</text>
+            </items>
+         </field>
+         <field name="ClientZIP" y="34.925mm" w="41.275mm" h="9mm" x="161.925mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="10.85mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+               <value>
+                  <text>ZIP:</text>
+               </value>
+            </caption>
+         </field>
+         <field name="TechnicianName" y="44.45mm" w="203.2mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="33.34mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+               <value>
+                  <text>Technician</text>
+               </value>
+            </caption>
+         </field>
+         <draw name="Line2" y="53.975mm" w="203.2mm" h="0in">
+            <value>
+               <line slope="/"/>
+            </value>
+         </draw>
+         <draw name="TextBlock1" y="57.15mm" w="8in" h="107.327mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="font-weight:bold;text-decoration:none;letter-spacing:0in">Compute Recoup<span style="font-weight:normal"> and The Client listed above do hereby agree as follows:</span></p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">This contract shall become effective on the effective date stated above and shall continue in effect until<span style="xfa-spacerun:yes">            </span>unless terminated due to provisions stated in this contract.</p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">The Client will compensate for the services to be performed by<span style="xfa-spacerun:yes"> </span><span style="font-weight:bold">Compute Recoup</span> in the amount of<span style="xfa-spacerun:yes">                        </span>. Any additional services that are not listed below will be charged to The Client at an hourly rate of<span style="xfa-spacerun:yes">     </span></p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">In addition to the fees specified above, The Client will reimburse Compute Recoup for any incidental costs and expenses that may be incurred while performing services for The Client as stated in this contract.<span style="xfa-spacerun:yes">  </span>Cost and expenses will be billed to The Client on a monthly basis and will be due and payable within 30 days of the invoice receipt.</p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">A payment discount of 10% will be applied if the bill is paid within 10 days.</p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">However, if any invoice is not paid by the due date, a $10 late fee will be added to and payable on all overdue amounts.<span style="xfa-spacerun:yes">  </span>The Client shall pay all cost involved for collection, including reasonable attorney fees.</p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">If The Client fails to pay for the above mentioned services when they are due, Compute Recoup has the right to treat such failure to pay as a breach of this contract and may then terminate this contract and seek appropriate legal remedies.</p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">Under the terms and conditions stated in this contract, Compute Recoup hereby agrees to the following specific services for The Client:</p></body>
+               </exData>
+            </value>
+            <font size="11pt" typeface="Tahoma" baselineShift="0pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+         </draw>
+         <field name="EndDate" y="63.5mm" x="177.8mm" w="25.4mm" h="9mm">
+            <ui>
+               <dateTimeEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </dateTimeEdit>
+            </ui>
+            <font typeface="Tahoma"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom" hAlign="center"/>
+            <value>
+               <date/>
+            </value>
+            <caption reserve="0.01in">
+               <font typeface="Tahoma"/>
+               <para vAlign="bottom" hAlign="center"/>
+            </caption>
+         </field>
+         <field name="PriceFixed" y="78.74mm" w="28.575mm" h="6.35mm" x="171.45mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="3.97mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom" hAlign="right"/>
+               <value>
+                  <text>$</text>
+               </value>
+            </caption>
+         </field>
+         <field name="PriceHourly" y="83.82mm" w="28.575mm" h="6.35mm" x="165.1mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="3.97mm">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom" hAlign="right"/>
+               <value>
+                  <text>$</text>
+               </value>
+            </caption>
+         </field>
+         <field name="Details1" y="165.1mm" w="203.2mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="0.01in">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+            </caption>
+         </field>
+         <field name="Details2" y="174.625mm" w="203.2mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="0.01in">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+            </caption>
+         </field>
+         <field name="Details3" y="184.15mm" w="203.2mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="0.01in">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+            </caption>
+         </field>
+         <field name="Details4" y="193.675mm" w="203.2mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="0.01in">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+            </caption>
+         </field>
+         <field name="Details5" y="203.2mm" w="203.2mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="0.01in">
+               <font typeface="Myriad Pro"/>
+               <para vAlign="bottom"/>
+            </caption>
+         </field>
+         <draw name="TextBlock2" y="212.725mm" w="8in" h="53.975mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="text-decoration:none;letter-spacing:0in">Additionally, to the above stated repair services. The Technician, using their discretion, may also execute additional computer services for The Client if the The Client requests and The Technician agrees with such request. However, if the additional service is not as described in this section it will be billed separately to The Client as stated above.<span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">The<span style="xfa-spacerun:yes"> </span><span style="letter-spacing:0em">service</span> to be performed by The Technician shall maintain the computer system in good operating condition as is determined by the specifications for that computer system and shall maintain a reasonable up-time for the computer system. However, Compute Recoup shall be released of any hereby obligation if The Client makes any alterations or modifications to the computer system or attaches devices to it that are not of the original factory design.<span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">The Client shall provide The Technician with full access to the device(s) for which service is requested.<span style="xfa-spacerun:yes">  </span>The Technician shall work in an efficient and clean manner and also in compliance with any and all statues, laws, rules and regulations that have jurisdiction. The Technician shall be responsible for determining and obtaining the permits that are necessary to carry out the above mentioned services.<span style="xfa-spacerun:yes">  </span></p></body>
+               </exData>
+            </value>
+            <font typeface="Myriad Pro" baselineShift="0pt"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <para hAlign="justify" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+         </draw>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <desc>
+         <text name="version">8.2.1.4029.1.523496.503679</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 248 64 000100030005000600080009000A000D000E000F00100012001300140015001600170019001A001B0021002200240025002600270029002A002C002F00310033003400350036003B00420043004400450046004700480049004A004B004C004D004E004F0050005100520053005400550056005700580059005A005D "$%’(),-./12345689:@ACDEFHIKNPRSTUZabcdefghijklmnopqrstuvwxy|?>
+      <?renderCache.subset "Tahoma" 0 0 ISO-8859-1 4 160 40 000300070008000F0011001300140016001D002400260029002B002C003500370038004400450046004700480049004A004B004C004E004F005000510052005300550056005700580059005A005B005C $%,.013:ACFHIRTUabcdefghiklmnoprstuvwxy?>
+      <?renderCache.subset "Tahoma" 1 0 ISO-8859-1 4 44 11 0003000F002600350046004800500052005300570058 ,CRcemoptu?></subform>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+   <?templateDesigner FormTargetVersion 26?>
+   <?templateDesigner DefaultLanguage FormCalc?>
+   <?templateDesigner DefaultRunAt client?>
+   <?acrobat JavaScript strictScoping?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner XDPPreviewFormat 19?>
+   <?templateDesigner Zoom 100?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner SaveTaggedPDF 0?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+   <?templateDesigner SavePDFWithLog 0?>
+   <?templateDesigner FormState default?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.6/">
+   <agent name="designer">
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo>
+            <embed>0</embed>
+         </fontInfo>
+         <tagged>0</tagged>
+         <version>1.7</version>
+         <adobeExtensionLevel>1</adobeExtensionLevel>
+      </pdf>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.6/">
+   <locale name="en_US" desc="English (United States)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2015-06-03T15:19:08Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer ES 8.2</xmp:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 8.2</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:354756af-56a2-47b3-8971-6e53468a09bc</xmpMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>8.2.1.4029.1.523496.503679</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>
