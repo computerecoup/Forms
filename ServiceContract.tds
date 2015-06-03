@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xfa generator="AdobeLiveCycleDesignerES_V8.2.1.4029.1.523496" APIVersion="2.8.9029.0"?>
-<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2015-06-03T16:32:43Z" uuid="354756af-56a2-47b3-8971-6e53468a09bc">
-<template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2015-06-03T16:36:20Z" uuid="354756af-56a2-47b3-8971-6e53468a09bc">
+<template xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
    <?formServer defaultPDFRenderFormat acrobat8.1static?>
    <?formServer allowRenderCaching 0?>
    <?formServer formModel both?>
@@ -432,20 +432,6 @@
                <para vAlign="bottom"/>
             </caption>
          </field>
-         <draw name="TextBlock2" y="209.55mm" w="8in" h="57.15mm">
-            <ui>
-               <textEdit/>
-            </ui>
-            <value>
-               <exData contentType="text/html">
-                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="text-decoration:none;letter-spacing:0in">Additionally, to the above stated repair services. The Technician, using their discretion, may also execute additional computer services for The Client if the The Client requests and The Technician agrees with such request. However, if the additional service is not as described in this section it will be billed separately to The Client as stated above.<span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">The<span style="xfa-spacerun:yes"> </span><span style="letter-spacing:0em">service</span> to be performed by The Technician shall maintain the computer system in good operating condition as is determined by the specifications for that computer system and shall maintain a reasonable up-time for the computer system. However, Compute Recoup shall be released of any hereby obligation if The Client makes any alterations or modifications to the computer system or attaches devices to it that are not of the original factory design.<span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">The Client shall provide The Technician with full access to the device(s) for which service is requested.<span style="xfa-spacerun:yes">  </span>The Technician shall work in an efficient and clean manner and also in compliance with any and all statues, laws, rules and regulations that have jurisdiction. The Technician shall be responsible for determining and obtaining the permits that are necessary to carry out the above mentioned services.<span style="xfa-spacerun:yes">  </span></p></body>
-               </exData>
-            </value>
-            <font typeface="Myriad Pro" baselineShift="0pt"/>
-            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
-            <para hAlign="justify" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
-         </draw>
-         <?templateDesigner expand 1?>
          <field name="ClientAddress" y="28.575mm" w="82.55mm" h="9mm" x="120.65mm">
             <ui>
                <textEdit>
@@ -472,46 +458,8 @@
                <picture>text{OOOOOOOO'@example.com'}</picture>
             </format>
          </field>
-      </subform>
-      <subform w="203.2mm" h="266.7mm">
-         <bind match="none"/>
-         <draw name="TextBlock3" w="8in" h="85.725mm">
-            <ui>
-               <textEdit/>
-            </ui>
-            <value>
-               <text>All confidential information that is communicated to and obtained by The Technician from The Client in connection with performing the above mentioned services shall be held by The Technician and Compute Recoup in full trust. At no time will The Technician or Compute Recoup use any confidential information obtained through conducting this service contract either directly or indirectly, for personal benefit or disclose or communicate such information in any manner. This provision shall continue to be effective after the termination of this contract.
-
-This contract may be terminated by either party submitting a written notice to the other party or may immediately be terminated under the following circumstances:  If there is a failure to make a required payment when due, in the event of bankruptcy by either party or the failure to make available or deliver the services in the time and manner as described in this contract.
-
-Any notice that is issued under this contract by either The Client or Compute Recoup may be delivered in writing, United States Postal Service, registered or certified with the postage prepaid and a return receipt requested. All mailed correspondence shall use the addresses listed above for each party of this contract.
-
-If one or more of the provisions of this Contract are to be found invalid for any reason that shall not affect any other provision of The contract this contract will then exist as if that provision never existed. This contract hereby supersedes any other prior understanding, written or oral agreement between the parties listed above regarding the subject matter of this contract. This contract contains the entire agreement between The Client and Compute Recoup and no oral representations or modifications shall be put into force except by a written amendment that is agreed to by both parties. If any legal action is brought to enforce or interpret this Contract, the prevailing party will be given reasonable attorney’s fees by the other party in addition to any additional relief the other party may be entitled to. </text>
-            </value>
-            <font typeface="Myriad Pro"/>
-            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
-            <?renderCache.bounds 573166 240166 0 0 1417 1417 0 0?>
-            <?renderCache.textRun 134 All confidential information that is communicated to and obtained by The Technician from The Client in connection with performing the  0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 133 above mentioned services shall be held by The Technician and Compute Recoup in full trust. At no time will The Technician or Compute  0 1417 20917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 134 Recoup use any confidential information obtained through conducting this service contract either directly or indirectly, for personal  0 1417 32917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 138 benefit or disclose or communicate such information in any manner. This provision shall continue to be effective after the termination of  0 1417 44917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 15 this contract.  0 1417 56917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 1   0 1417 68917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 134 This contract may be terminated by either party submitting a written notice to the other party or may immediately be terminated under  0 1417 80917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 139 the following circumstances:  If there is a failure to make a required payment when due, in the event of bankruptcy by either party or the  0 1417 92917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 104 failure to make available or deliver the services in the time and manner as described in this contract.  0 1417 104917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 1   0 1417 116917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 135 Any notice that is issued under this contract by either The Client or Compute Recoup may be delivered in writing, United States Postal  0 1417 128917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 140 Service, registered or certified with the postage prepaid and a return receipt requested. All mailed correspondence shall use the addresses  0 1417 140917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 46 listed above for each party of this contract.  0 1417 152917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 1   0 1417 164917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 138 If one or more of the provisions of this Contract are to be found invalid for any reason that shall not affect any other provision of The  0 1417 176917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 138 contract this contract will then exist as if that provision never existed. This contract hereby supersedes any other prior understanding,  0 1417 188917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 140 written or oral agreement between the parties listed above regarding the subject matter of this contract. This contract contains the entire  0 1417 200917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 129 agreement between The Client and Compute Recoup and no oral representations or modifications shall be put into force except by a  0 1417 212917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 138 written amendment that is agreed to by both parties. If any legal action is brought to enforce or interpret this Contract, the prevailing  0 1417 224917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
-            <?renderCache.textRun 141 party will be given reasonable attorney’s fees by the other party in addition to any additional relief the other party may be entitled to.  0 1417 236917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
-         <field name="SignatureTechnician" y="95.25mm" w="169.86mm" h="15.647mm">
+         <?templateDesigner expand 1?>
+         <field name="SignatureClient" y="234.95mm" w="169.86mm" h="15.647mm">
             <ui>
                <textEdit>
                   <border>
@@ -525,65 +473,47 @@ If one or more of the provisions of this Contract are to be found invalid for an
             </ui>
             <font typeface="Myriad Pro"/>
             <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
-            <para vAlign="bottom"/>
+            <para vAlign="bottom">
+               <hyphenation/>
+            </para>
             <caption reserve="0.261694in" placement="bottom">
                <font typeface="Myriad Pro"/>
-               <para spaceAbove="2pt"/>
-               <value>
-                  <text>Compute Recoup Technician Signature</text>
-               </value>
-            </caption>
-         </field>
-         <field name="SignatureDateTechnician" y="95.25mm" x="171.45mm" w="31.75mm" h="15.647mm">
-            <ui>
-               <dateTimeEdit>
-                  <border>
-                     <edge presence="hidden"/>
-                     <edge presence="hidden"/>
-                     <edge/>
-                     <edge presence="hidden"/>
-                     <?templateDesigner StyleID aped1?></border>
-                  <margin/>
-               </dateTimeEdit>
-            </ui>
-            <font typeface="Tahoma"/>
-            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
-            <para vAlign="bottom" hAlign="center"/>
-            <value>
-               <date/>
-            </value>
-            <caption reserve="0.261694in" placement="bottom">
-               <font typeface="Tahoma"/>
-               <para hAlign="center" spaceAbove="2pt"/>
-               <value>
-                  <text>Date</text>
-               </value>
-            </caption>
-         </field>
-         <field name="SignatureClient" y="114.3mm" w="169.86mm" h="15.647mm">
-            <ui>
-               <textEdit>
-                  <border>
-                     <edge presence="hidden"/>
-                     <edge presence="hidden"/>
-                     <edge/>
-                     <edge presence="hidden"/>
-                     <?templateDesigner StyleID aped1?></border>
-                  <margin/>
-               </textEdit>
-            </ui>
-            <font typeface="Myriad Pro"/>
-            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
-            <para vAlign="bottom"/>
-            <caption reserve="0.261694in" placement="bottom">
-               <font typeface="Myriad Pro"/>
-               <para spaceAbove="2pt"/>
+               <para spaceAbove="2pt">
+                  <hyphenation/>
+               </para>
                <value>
                   <text>Client Signature</text>
                </value>
             </caption>
          </field>
-         <field name="SignatureDateClient" y="114.3mm" x="171.45mm" w="31.75mm" h="15.647mm">
+         <field name="SignatureTechnician" y="212.725mm" w="169.86mm" h="15.647mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom">
+               <hyphenation/>
+            </para>
+            <caption reserve="0.261694in" placement="bottom">
+               <font typeface="Myriad Pro"/>
+               <para spaceAbove="2pt">
+                  <hyphenation/>
+               </para>
+               <value>
+                  <text>Compute Recoup Technician Signature</text>
+               </value>
+            </caption>
+         </field>
+         <field name="SignatureDateClient" y="234.95mm" x="171.45mm" w="31.75mm" h="15.647mm">
             <ui>
                <dateTimeEdit>
                   <border>
@@ -603,12 +533,57 @@ If one or more of the provisions of this Contract are to be found invalid for an
             </value>
             <caption reserve="0.261694in" placement="bottom">
                <font typeface="Tahoma"/>
-               <para hAlign="center" spaceAbove="2pt"/>
+               <para hAlign="center" spaceAbove="2pt">
+                  <hyphenation/>
+               </para>
                <value>
                   <text>Date</text>
                </value>
             </caption>
          </field>
+         <field name="SignatureDateTechnician" y="212.725mm" x="171.45mm" w="31.75mm" h="15.647mm">
+            <ui>
+               <dateTimeEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </dateTimeEdit>
+            </ui>
+            <font typeface="Tahoma"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom" hAlign="center"/>
+            <value>
+               <date/>
+            </value>
+            <caption reserve="0.261694in" placement="bottom">
+               <font typeface="Tahoma"/>
+               <para hAlign="center" spaceAbove="2pt">
+                  <hyphenation/>
+               </para>
+               <value>
+                  <text>Date</text>
+               </value>
+            </caption>
+         </field>
+      </subform>
+      <subform w="203.2mm" h="266.7mm">
+         <bind match="none"/>
+         <draw name="TextBlock3" w="8in" h="146.05mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="text-align:justify;text-decoration:none;letter-spacing:0in">Additionally, to the above stated repair services. The Technician, using their discretion, may also execute additional computer services for The Client if the The Client requests and The Technician agrees with such request. However, if the additional service is not as described in this section it will be billed separately to The Client as stated above.<span style="xfa-spacerun:yes"> </span></p><p style="text-align:justify;text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-align:justify;text-decoration:none;letter-spacing:0in">The<span style="xfa-spacerun:yes"> </span><span style="letter-spacing:0em">service</span> to be performed by The Technician shall maintain the computer system in good operating condition as is determined by the specifications for that computer system and shall maintain a reasonable up-time for the computer system. However, Compute Recoup shall be released of any hereby obligation if The Client makes any alterations or modifications to the computer system or attaches devices to it that are not of the original factory design.<span style="xfa-spacerun:yes"> </span></p><p style="text-align:justify;text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-align:justify;text-decoration:none;letter-spacing:0in">The Client shall provide The Technician with full access to the device(s) for which service is requested.<span style="xfa-spacerun:yes">  </span>The Technician shall work in an efficient and clean manner and also in compliance with any and all statues, laws, rules and regulations that have jurisdiction. The Technician shall be responsible for determining and obtaining the permits that are necessary to carry out the above mentioned services.<span style="xfa-spacerun:yes">  </span></p><p style="text-decoration:none;letter-spacing:0in"><span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">All confidential information that is communicated to and obtained by The Technician from The Client in connection with performing the above mentioned services shall be held by The Technician and Compute Recoup in full trust. At no time will The Technician or Compute Recoup use any confidential information obtained through conducting this service contract either directly or indirectly, for personal benefit or disclose or communicate such information in any manner. This provision shall continue to be effective after the termination of this contract.<br/><br/>This contract may be terminated by either party submitting a written notice to the other party or may immediately be terminated under the following circumstances:<span style="xfa-spacerun:yes">  </span>If there is a failure to make a required payment when due, in the event of bankruptcy by either party or the failure to make available or deliver the services in the time and manner as described in this contract.<br/><br/>Any notice that is issued under this contract by either The Client or Compute Recoup may be delivered in writing, United States Postal Service, registered or certified with the postage prepaid and a return receipt requested. All mailed correspondence shall use the addresses listed above for each party of this contract.<br/><br/>If one or more of the provisions of this Contract are to be found invalid for any reason that shall not affect any other provision of The contract this contract will then exist as if that provision never existed. This contract hereby supersedes any other prior understanding, written or oral agreement between the parties listed above regarding the subject matter of this contract. This contract contains the entire agreement between The Client and Compute Recoup and no oral representations or modifications shall be put into force except by a written amendment that is agreed to by both parties. If any legal action is brought to enforce or interpret this Contract, the prevailing<span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">party will be given reasonable attorney’s fees by the other party in addition to any additional relief the other party may be entitled to.<span style="xfa-spacerun:yes"> </span></p></body>
+               </exData>
+            </value>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+         </draw>
          <?templateDesigner expand 1?></subform>
       <proto/>
       <desc>
@@ -633,8 +608,9 @@ If one or more of the provisions of this Contract are to be found invalid for an
    <?templateDesigner FormState default?>
    <?templateDesigner SavePDFWithEmbeddedFonts 0?>
    <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
-   <?templateDesigner SaveTaggedPDF 0?></template>
-<config xmlns="http://www.xfa.org/schema/xci/2.6/">
+   <?templateDesigner SaveTaggedPDF 0?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/2.6/?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.8/">
    <agent name="designer">
       <destination>pdf</destination>
       <pdf>
@@ -768,7 +744,7 @@ If one or more of the provisions of this Contract are to be found invalid for an
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
-         <xmp:MetadataDate>2015-06-03T16:32:43Z</xmp:MetadataDate>
+         <xmp:MetadataDate>2015-06-03T16:36:20Z</xmp:MetadataDate>
          <xmp:CreatorTool>Adobe LiveCycle Designer ES 8.2</xmp:CreatorTool>
       </rdf:Description>
       <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
