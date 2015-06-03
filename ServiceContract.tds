@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xfa generator="AdobeLiveCycleDesignerES_V8.2.1.4029.1.523496" APIVersion="2.8.9029.0"?>
-<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2015-06-03T15:23:12Z" uuid="354756af-56a2-47b3-8971-6e53468a09bc">
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2015-06-03T16:10:43Z" uuid="354756af-56a2-47b3-8971-6e53468a09bc">
 <template xmlns="http://www.xfa.org/schema/xfa-template/2.6/">
    <?formServer defaultPDFRenderFormat acrobat8.1static?>
    <?formServer allowRenderCaching 0?>
@@ -25,17 +25,19 @@
             <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
             <?renderCache.bounds 420166 33166 0 0 1417 1417 0 0?>
             <?renderCache.textRun 16 Service Contract 0 1417 22417 0 0 0 "Myriad Pro" 0 0 28000 ISO-8859-1?></draw>
-         <draw name="CompanyName" y="9.525mm" w="92.724mm" h="5.2331mm">
+         <draw name="CompanyName" w="92.724mm" h="15.875mm" x="69.85mm">
             <ui>
                <textEdit/>
             </ui>
             <value>
-               <text>Compute Recoup | computerecoup@gmail.com | 314.651.2965</text>
+               <exData contentType="text/html">
+                  <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/" xfa:APIVersion="2.7.0.0"><p style="text-decoration:none;letter-spacing:0in">Compute Recoup<span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">computerecoup@gmail.com | 314.651.2965</p><p style="text-decoration:none;letter-spacing:0in">12424 Leigh Lane<span style="xfa-spacerun:yes"> </span></p><p style="text-decoration:none;letter-spacing:0in">Maryland Heights, MO 63043</p></body>
+               </exData>
             </value>
-            <font typeface="Myriad Pro"/>
+            <font typeface="Myriad Pro" size="8pt" baselineShift="0pt"/>
             <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
-            <?renderCache.bounds 260006 12000 0 0 1417 1417 0 0?>
-            <?renderCache.textRun 55 Compute Recoup | computerecoup@gmail.com | 314.651.2965 0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+            <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+         </draw>
          <field name="EffectiveDate" x="149.225mm" w="52.475mm" h="12.7mm">
             <ui>
                <dateTimeEdit>
@@ -69,7 +71,7 @@
                <line slope="/"/>
             </value>
          </draw>
-         <field name="ClientName" y="15.875mm" w="203.2mm" h="9mm">
+         <field name="ClientName" y="19.05mm" w="203.2mm" h="9mm">
             <ui>
                <textEdit>
                   <border>
@@ -92,7 +94,7 @@
                </value>
             </caption>
          </field>
-         <field name="ClientAddress" y="25.4mm" w="203.2mm" h="9mm">
+         <field name="ClientAddress" y="28.575mm" w="203.2mm" h="9mm">
             <ui>
                <textEdit>
                   <border>
@@ -115,7 +117,7 @@
                </value>
             </caption>
          </field>
-         <field name="ClientCity" y="34.925mm" w="120.65mm" h="9mm">
+         <field name="ClientCity" y="38.1mm" w="120.65mm" h="9mm">
             <ui>
                <textEdit>
                   <border>
@@ -138,7 +140,7 @@
                </value>
             </caption>
          </field>
-         <field name="ClientState" y="34.925mm" x="120.65mm" w="41.275mm" h="9mm" relevant="-print">
+         <field name="ClientState" y="38.1mm" x="120.65mm" w="41.275mm" h="9mm" relevant="-print">
             <ui>
                <choiceList textEntry="1">
                   <border>
@@ -214,7 +216,7 @@
                <text>Wyoming</text>
             </items>
          </field>
-         <field name="ClientZIP" y="34.925mm" w="41.275mm" h="9mm" x="161.925mm">
+         <field name="ClientZIP" y="38.1mm" w="41.275mm" h="9mm" x="161.925mm">
             <ui>
                <textEdit>
                   <border>
@@ -237,7 +239,7 @@
                </value>
             </caption>
          </field>
-         <field name="TechnicianName" y="44.45mm" w="203.2mm" h="9mm">
+         <field name="TechnicianName" y="47.625mm" w="203.2mm" h="9mm">
             <ui>
                <textEdit>
                   <border>
@@ -260,12 +262,12 @@
                </value>
             </caption>
          </field>
-         <draw name="Line2" y="53.975mm" w="203.2mm" h="0in">
+         <draw name="Line2" y="57.15mm" w="203.2mm" h="0in">
             <value>
                <line slope="/"/>
             </value>
          </draw>
-         <draw name="TextBlock1" y="57.15mm" w="8in" h="107.327mm">
+         <draw name="TextBlock1" y="60.325mm" w="8in" h="107.327mm">
             <ui>
                <textEdit/>
             </ui>
@@ -278,7 +280,7 @@
             <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
             <para spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
          </draw>
-         <field name="EndDate" y="63.5mm" x="177.8mm" w="25.4mm" h="9mm">
+         <field name="EndDate" y="69.85mm" x="177.8mm" w="25.4mm" h="9mm">
             <ui>
                <dateTimeEdit>
                   <border>
@@ -301,7 +303,7 @@
                <para vAlign="bottom" hAlign="center"/>
             </caption>
          </field>
-         <field name="PriceFixed" y="78.74mm" w="28.575mm" h="6.35mm" x="171.45mm">
+         <field name="PriceFixed" y="85.09mm" w="28.575mm" h="6.35mm" x="174.625mm">
             <ui>
                <textEdit>
                   <border>
@@ -324,7 +326,7 @@
                </value>
             </caption>
          </field>
-         <field name="PriceHourly" y="83.82mm" w="28.575mm" h="6.35mm" x="165.1mm">
+         <field name="PriceHourly" y="90.17mm" w="28.575mm" h="6.35mm" x="171.45mm">
             <ui>
                <textEdit>
                   <border>
@@ -347,7 +349,7 @@
                </value>
             </caption>
          </field>
-         <field name="Details1" y="165.1mm" w="203.2mm" h="9mm">
+         <field name="Details1" y="168.275mm" w="203.2mm" h="9mm">
             <ui>
                <textEdit>
                   <border>
@@ -367,7 +369,7 @@
                <para vAlign="bottom"/>
             </caption>
          </field>
-         <field name="Details2" y="174.625mm" w="203.2mm" h="9mm">
+         <field name="Details2" y="177.8mm" w="203.2mm" h="9mm">
             <ui>
                <textEdit>
                   <border>
@@ -387,7 +389,7 @@
                <para vAlign="bottom"/>
             </caption>
          </field>
-         <field name="Details3" y="184.15mm" w="203.2mm" h="9mm">
+         <field name="Details3" y="187.325mm" w="203.2mm" h="9mm">
             <ui>
                <textEdit>
                   <border>
@@ -407,7 +409,7 @@
                <para vAlign="bottom"/>
             </caption>
          </field>
-         <field name="Details4" y="193.675mm" w="203.2mm" h="9mm">
+         <field name="Details4" y="196.85mm" w="203.2mm" h="9mm">
             <ui>
                <textEdit>
                   <border>
@@ -427,27 +429,7 @@
                <para vAlign="bottom"/>
             </caption>
          </field>
-         <field name="Details5" y="203.2mm" w="203.2mm" h="9mm">
-            <ui>
-               <textEdit>
-                  <border>
-                     <edge presence="hidden"/>
-                     <edge presence="hidden"/>
-                     <edge/>
-                     <edge presence="hidden"/>
-                     <?templateDesigner StyleID aped1?></border>
-                  <margin/>
-               </textEdit>
-            </ui>
-            <font typeface="Myriad Pro"/>
-            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
-            <para vAlign="bottom"/>
-            <caption reserve="0.01in">
-               <font typeface="Myriad Pro"/>
-               <para vAlign="bottom"/>
-            </caption>
-         </field>
-         <draw name="TextBlock2" y="212.725mm" w="8in" h="53.975mm">
+         <draw name="TextBlock2" y="209.55mm" w="8in" h="57.15mm">
             <ui>
                <textEdit/>
             </ui>
@@ -461,16 +443,153 @@
             <para hAlign="justify" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
          </draw>
          <?templateDesigner expand 1?></subform>
+      <subform w="203.2mm" h="266.7mm">
+         <bind match="none"/>
+         <draw name="TextBlock3" w="8in" h="85.725mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>All confidential information that is communicated to and obtained by The Technician from The Client in connection with performing the above mentioned services shall be held by The Technician and Compute Recoup in full trust. At no time will The Technician or Compute Recoup use any confidential information obtained through conducting this service contract either directly or indirectly, for personal benefit or disclose or communicate such information in any manner. This provision shall continue to be effective after the termination of this contract.
+
+This contract may be terminated by either party submitting a written notice to the other party or may immediately be terminated under the following circumstances:  If there is a failure to make a required payment when due, in the event of bankruptcy by either party or the failure to make available or deliver the services in the time and manner as described in this contract.
+
+Any notice that is issued under this contract by either The Client or Compute Recoup may be delivered in writing, United States Postal Service, registered or certified with the postage prepaid and a return receipt requested. All mailed correspondence shall use the addresses listed above for each party of this contract.
+
+If one or more of the provisions of this Contract are to be found invalid for any reason that shall not affect any other provision of The contract this contract will then exist as if that provision never existed. This contract hereby supersedes any other prior understanding, written or oral agreement between the parties listed above regarding the subject matter of this contract. This contract contains the entire agreement between The Client and Compute Recoup and no oral representations or modifications shall be put into force except by a written amendment that is agreed to by both parties. If any legal action is brought to enforce or interpret this Contract, the prevailing party will be given reasonable attorney’s fees by the other party in addition to any additional relief the other party may be entitled to. </text>
+            </value>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+            <?renderCache.bounds 573166 240166 0 0 1417 1417 0 0?>
+            <?renderCache.textRun 134 All confidential information that is communicated to and obtained by The Technician from The Client in connection with performing the  0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 133 above mentioned services shall be held by The Technician and Compute Recoup in full trust. At no time will The Technician or Compute  0 1417 20917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 134 Recoup use any confidential information obtained through conducting this service contract either directly or indirectly, for personal  0 1417 32917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 138 benefit or disclose or communicate such information in any manner. This provision shall continue to be effective after the termination of  0 1417 44917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 15 this contract.  0 1417 56917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 1   0 1417 68917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 134 This contract may be terminated by either party submitting a written notice to the other party or may immediately be terminated under  0 1417 80917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 139 the following circumstances:  If there is a failure to make a required payment when due, in the event of bankruptcy by either party or the  0 1417 92917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 104 failure to make available or deliver the services in the time and manner as described in this contract.  0 1417 104917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 1   0 1417 116917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 135 Any notice that is issued under this contract by either The Client or Compute Recoup may be delivered in writing, United States Postal  0 1417 128917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 140 Service, registered or certified with the postage prepaid and a return receipt requested. All mailed correspondence shall use the addresses  0 1417 140917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 46 listed above for each party of this contract.  0 1417 152917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 1   0 1417 164917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 138 If one or more of the provisions of this Contract are to be found invalid for any reason that shall not affect any other provision of The  0 1417 176917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 138 contract this contract will then exist as if that provision never existed. This contract hereby supersedes any other prior understanding,  0 1417 188917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 140 written or oral agreement between the parties listed above regarding the subject matter of this contract. This contract contains the entire  0 1417 200917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 129 agreement between The Client and Compute Recoup and no oral representations or modifications shall be put into force except by a  0 1417 212917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 138 written amendment that is agreed to by both parties. If any legal action is brought to enforce or interpret this Contract, the prevailing  0 1417 224917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+            <?renderCache.textRun 141 party will be given reasonable attorney’s fees by the other party in addition to any additional relief the other party may be entitled to.  0 1417 236917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?></draw>
+         <?templateDesigner expand 1?>
+         <field name="SignatureTechnician" y="95.25mm" w="169.86mm" h="15.647mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="0.261694in" placement="bottom">
+               <font typeface="Myriad Pro"/>
+               <para spaceAbove="2pt"/>
+               <value>
+                  <text>Compute Recoup Technician Signature</text>
+               </value>
+            </caption>
+         </field>
+         <field name="SignatureDateTechnician" y="95.25mm" x="171.45mm" w="31.75mm" h="15.647mm">
+            <ui>
+               <dateTimeEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </dateTimeEdit>
+            </ui>
+            <font typeface="Tahoma"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom" hAlign="center"/>
+            <value>
+               <date/>
+            </value>
+            <caption reserve="0.261694in" placement="bottom">
+               <font typeface="Tahoma"/>
+               <para hAlign="center" spaceAbove="2pt"/>
+               <value>
+                  <text>Date</text>
+               </value>
+            </caption>
+         </field>
+         <field name="SignatureClient" y="114.3mm" w="169.86mm" h="15.647mm">
+            <ui>
+               <textEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Myriad Pro"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="0.261694in" placement="bottom">
+               <font typeface="Myriad Pro"/>
+               <para spaceAbove="2pt"/>
+               <value>
+                  <text>Client Signature</text>
+               </value>
+            </caption>
+         </field>
+         <field name="SignatureDateClient" y="114.3mm" x="171.45mm" w="31.75mm" h="15.647mm">
+            <ui>
+               <dateTimeEdit>
+                  <border>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge/>
+                     <edge presence="hidden"/>
+                     <?templateDesigner StyleID aped1?></border>
+                  <margin/>
+               </dateTimeEdit>
+            </ui>
+            <font typeface="Tahoma"/>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="1mm" rightInset="1mm"/>
+            <para vAlign="bottom" hAlign="center"/>
+            <value>
+               <date/>
+            </value>
+            <caption reserve="0.261694in" placement="bottom">
+               <font typeface="Tahoma"/>
+               <para hAlign="center" spaceAbove="2pt"/>
+               <value>
+                  <text>Date</text>
+               </value>
+            </caption>
+         </field>
+      </subform>
       <proto/>
       <desc>
          <text name="version">8.2.1.4029.1.523496.503679</text>
       </desc>
       <?templateDesigner expand 1?>
-      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 248 64 000100030005000600080009000A000D000E000F00100012001300140015001600170019001A001B0021002200240025002600270029002A002C002F00310033003400350036003B00420043004400450046004700480049004A004B004C004D004E004F0050005100520053005400550056005700580059005A005D "$%’(),-./12345689:@ACDEFHIKNPRSTUZabcdefghijklmnopqrstuvwxy|?>
-      <?renderCache.subset "Tahoma" 0 0 ISO-8859-1 4 160 40 000300070008000F0011001300140016001D002400260029002B002C003500370038004400450046004700480049004A004B004C004E004F005000510052005300550056005700580059005A005B005C $%,.013:ACFHIRTUabcdefghiklmnoprstuvwxy?>
-      <?renderCache.subset "Tahoma" 1 0 ISO-8859-1 4 44 11 0003000F002600350046004800500052005300570058 ,CRcemoptu?></subform>
+      <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 244 63 0001000500080009000A000D000E000F0011001200130014001500160017001A001B0021002200240025002600270029002A002D002E002F003000310033003400350036003B00420043004400450046004700480049004A004B004C004D004E004F0050005100520053005400550056005700580059005A005D $’(),-.01234569:@ACDEFHILMNOPRSTUZabcdefghijklmnopqrstuvwxy|?>
+      <?renderCache.subset "Tahoma" 0 0 ISO-8859-1 4 160 40 000300070008000F0011001300140016001D002400260027002B002C003500370038004400450046004700480049004A004B004C004E004F005000510052005300550056005700580059005A005B005C $%,.013:ACDHIRTUabcdefghiklmnoprstuvwxy?>
+      <?renderCache.subset "Tahoma" 1 0 ISO-8859-1 4 40 10 0003002600350046004800500052005300570058 CRcemoptu?></subform>
    <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
-   <?templateDesigner FormTargetVersion 26?>
    <?templateDesigner DefaultLanguage FormCalc?>
    <?templateDesigner DefaultRunAt client?>
    <?acrobat JavaScript strictScoping?>
@@ -479,12 +598,13 @@
    <?PDFPrintOptions duplexMode 0?>
    <?templateDesigner DefaultPreviewType interactive?>
    <?templateDesigner XDPPreviewFormat 19?>
-   <?templateDesigner Zoom 100?>
    <?templateDesigner SavePDFWithLog 0?>
-   <?templateDesigner FormState default?>
+   <?templateDesigner FormTargetVersion 26?>
    <?templateDesigner SaveTaggedPDF 0?>
    <?templateDesigner SavePDFWithEmbeddedFonts 0?>
-   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 125?>
+   <?templateDesigner FormState default?></template>
 <config xmlns="http://www.xfa.org/schema/xci/2.6/">
    <agent name="designer">
       <destination>pdf</destination>
@@ -511,7 +631,7 @@
          <packets>*</packets>
       </xdp>
    </present>
-</config>
+   <?originalXFAVersion http://www.xfa.org/schema/xci/2.8/?></config>
 <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.6/">
    <locale name="en_US" desc="English (United States)">
       <calendarSymbols name="gregorian">
@@ -619,7 +739,7 @@
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c041 52.337767, 2008/04/13-15:41:00        ">
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
-         <xmp:MetadataDate>2015-06-03T15:23:12Z</xmp:MetadataDate>
+         <xmp:MetadataDate>2015-06-03T16:10:43Z</xmp:MetadataDate>
          <xmp:CreatorTool>Adobe LiveCycle Designer ES 8.2</xmp:CreatorTool>
       </rdf:Description>
       <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
